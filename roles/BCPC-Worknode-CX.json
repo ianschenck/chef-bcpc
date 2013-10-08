@@ -1,0 +1,16 @@
+{
+    "name": "BCPC-Worknode",
+    "default_attributes": {
+    },
+    "json_class": "Chef::Role",
+    "run_list": [
+      "role[Basic]",
+      "recipe[bcpc::default]",
+      "recipe[bcpc::networking]",
+      "recipe[bcpc::ceph-work]",
+    ],
+    "description": "A functional Calxeda storage node in a BCPC cluster",
+    "chef_type": "role",
+    "override_attributes": {
+    }
+}
