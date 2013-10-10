@@ -7,7 +7,7 @@
       "role[Basic]",
       "recipe[bcpc::default]",
       "recipe[bcpc::networking]",
-      "recipe[bcpc::ceph-work]",
+      "recipe[bcpc::ceph-work]"
     ],
     "description": "A functional Calxeda storage node in a BCPC cluster",
     "chef_type": "role",
